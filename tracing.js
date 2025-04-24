@@ -13,7 +13,6 @@ const {
 } = require('@opentelemetry/sdk-metrics');
 
 
-//Instrumentations
 const { ExpressInstrumentation } =
     require("opentelemetry-instrumentation-express");
 const { MongoDBInstrumentation } =
